@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Xz8-Ua-k4L">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Etd-lK-lmE">
+            <objects>
+                <viewController id="Xz8-Ua-k4L" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Dif-Y7-AOq">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yj5-Sk-HQL">
+                                <rect key="frame" x="0.0" y="20" width="414" height="716"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jojo" translatesAutoresizingMaskIntoConstraints="NO" id="6xE-uP-22C">
+                                        <rect key="frame" x="-27.333333333333343" y="0.0" width="468.66666666666674" height="250"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="250" id="JSX-fG-pwu"/>
+                                            <constraint firstAttribute="width" secondItem="6xE-uP-22C" secondAttribute="height" multiplier="15:8" id="zZM-V8-Dnt"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="6xE-uP-22C" firstAttribute="centerX" secondItem="Yj5-Sk-HQL" secondAttribute="centerX" id="r5R-de-L4R"/>
+                                    <constraint firstItem="6xE-uP-22C" firstAttribute="top" secondItem="Yj5-Sk-HQL" secondAttribute="top" priority="999" id="wbd-a8-UNN"/>
+                                </constraints>
+                            </view>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C8t-GU-Q5Z">
+                                <rect key="frame" x="0.0" y="20" width="414" height="716"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sI3-Cs-RnR" userLabel="ContainerView">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1747"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1oJ-Sa-MuU" userLabel="fakeView">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="250"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="250" id="Ko4-e6-UgN"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lPK-sF-mIm" userLabel="textView">
+                                                <rect key="frame" x="0.0" y="250" width="414" height="1497"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gVB-Kj-uXX">
+                                                        <rect key="frame" x="8" y="8" width="398" height="1481"/>
+                                                        <string key="text">능력자 배틀의 장르적 특징을 정립시켰으며 동시에 어지간한 후발주자들보다도 극적 수준이 뛰어나다. 즉 시초이자 완성체. 정체불명의 초능력을 가진 적 캐릭터의 습격과 위기로 긴장감을 고조시키고, 주역 캐릭터들이 기지와 의지를 발휘해 상대를 무찌르는 장면으로 카타르시스를 극대화 한다. 발상과 직관으로 주어진 의문을 해결하는 미스터리적 장르성과, 초능력으로 결투를 벌여 승리하는 판타지 액션 만화의 장르성이 결합돼 있다. 오늘날 독자에겐 너무 익숙한 구조이지만 작품의 시작 시기를 고려하면 혁신적이다. 오컬트, 호러, 근대 소재를 시작으로 시리즈가 이어지면서 다양한 소재의 차용과 장르적 결합이 이뤄졌기 때문에 호불호를 떠나 다채로운 스타일의 이야기를 즐길 수 있다.
+
+오묘하면서도 매력적인 컷신과 극적인 명장면에 치중하는 만화다. 캐릭터의 강인한 의지, 용기, 자기희생을 보여주는 장면을 삽입해 감동적인 서사 또한 확보했다. 각종 명장면을 뽐내기 위해 존재하는 듯한 캐릭터와 장면 구성은 큰 매력 요인으로, 치열하게 싸워서 시원하게 승리하는 전개를 바탕으로 캐릭터의 진취적인 면모를 부각해 독자를 몰입시키는 장면을 창출해낸다.
+
+일단 소년만화지만 청년만화로봐도 될 정도로 유혈, 폭발, 살인, 관통상이 난무해 대중적 인지도가 낮아 보일 수 있지만 1억 부의 판매량과 그에 걸맞는 팬층을 보유한, 마니악 중에서는 가장 메이저한 만화다. 물론 비슷한. 배틀물 장르의 전설인 드래곤볼, 원피스, 나루토와 비교하면 대중성이 부족하지만 작품의 높은 폭력성을 고려하면 적지 않은 판매량. 아라키 히로히코의 대표작이며 소위 쌍팔년도(쇼와 시대)부터 연재를 시작해 현재까지도 연재 중이다. 단일 서사로 끝내지 않고 주역 캐릭터와 배경, 스타일을 끊임없이 교체하며 시리즈물로 이야기를 연장해온 덕에 많은 분량을 가졌음에도 지지부진하지 않은 장편 만화. 수많은 명대사와 죠죠서기로 오마쥬가 용이한 만화라 여러매체의 작가들의 팬심 어필이 유난히 많다. 이 만화의 팬들은 죠죠러라고 불리곤 한다.
+
+작품의 허술한 개연성과 나치 미화 등의 도덕성 논란, 수많은 죠죠서기들이 사실은 패션 잡지 포즈 도용이라는 점 등이 대표적인 흠으로 꼽힌다. 하지만 섬세한 부분은 대놓고 넘어가는 작풍 때문인지 죠죠라는 만화가 가진 두터운 팬층과 만화계의 권위 때문인지, 이러한 단점이 이상하리만치 부각되지 않는다. 가만히 따져보면 결코 사소하지 않은 결점임에도 그렇다. 비슷한 예로는 슬램덩크의 트레이싱 논란이 있겠다.
+
+각 부마다 그 스타일이 모두 다르다. 주인공들인 죠죠들도 하나하나 성격이 다 다른데 작품 분위기까지 다르기에 사람마다 좋아하는 부가 갈린다. 예를 들어 서사를 좋아하는 사람은 1, 2부는 좋아하지만 싸움에 싸움의 연속으로 능력자 배틀이 된 3부는 그렇게 좋아하지 않는다거나, 카리스마 있는 주인공을 좋아하는 사람은 3부를 제일 좋아한다거나, 죽고 죽이는 능력배틀 스릴러가 좋다면 5부를 선호하는 식. 그렇기에 죠죠는 각 부가 하나로 이어지는 작품인 동시에 독립적인 작품들인 셈이다.
+
+죠죠 시리즈의 가장 큰 특징이자 재미는 매 장면마다 일어나는 예상 외의 전개들이다.[15] 독자가 당연히 이럴 것이라 생각하는 그 예상을 깨기 위해 수단과 방법을 가리지 않는다. 기존 설정에 억지가 훤히 들여다 보이는 새로운 설정을 갖다붙이는 것이나 말도 안 되는 기묘한 방법으로 이야기 구도를 완전히 바꿔버리는 방법도 마다하지 않는다.
+
+처음에 참신한 이야기로 등장한 소년만화들도 연재가 장기화되면 결국 처음에 선보였던 그 이야기 구조를 매번 답습하면서 스스로 매너리즘에 빠지는데, 이를 메꾸려다보니 결국 파워 인플레라는 마약에 손댈 수밖에 없고, 파워 인플레는 이야기 자체보다 누가누가 강하나 같은 등장인물의 캐릭터성에 의존하게 만드는데, 작가가 일부러 토너먼트적인 전개를 피하여 초반부에는 약한 적만 등장하다가 갈수록 강한 적이 등장하는 전개를 최대한 피했다. 물론 중간보스, 최종보스 등 어느 정도의 틀은 있지만, 이런 특수한 케이스를 제외하면 적들의 강함 배분이 초반부부터 후반부까지 적절한 편. 덕분에 중간에 나오는 적이 객관적인 약해도 악랄하기만 하면 강적이 될 수 있다. 인터뷰에서 기자가 그 덕분에 25년간 장기 연재할 수 있었던 게 아닐까 하고 묻자 작가도 수긍했다.</string>
+                                                        <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstItem="gVB-Kj-uXX" firstAttribute="top" secondItem="lPK-sF-mIm" secondAttribute="topMargin" id="0KC-oQ-jmk"/>
+                                                    <constraint firstAttribute="trailingMargin" secondItem="gVB-Kj-uXX" secondAttribute="trailing" id="M4h-dD-RwW"/>
+                                                    <constraint firstAttribute="bottomMargin" secondItem="gVB-Kj-uXX" secondAttribute="bottom" id="TEN-LV-fpv"/>
+                                                    <constraint firstItem="gVB-Kj-uXX" firstAttribute="leading" secondItem="lPK-sF-mIm" secondAttribute="leadingMargin" id="WJo-DV-b10"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="1oJ-Sa-MuU" secondAttribute="trailing" id="8Ug-6w-Yb8"/>
+                                            <constraint firstAttribute="trailing" secondItem="lPK-sF-mIm" secondAttribute="trailing" id="9uV-ZW-Q7z"/>
+                                            <constraint firstItem="lPK-sF-mIm" firstAttribute="leading" secondItem="sI3-Cs-RnR" secondAttribute="leading" id="IQh-Ga-Cam"/>
+                                            <constraint firstItem="1oJ-Sa-MuU" firstAttribute="top" secondItem="sI3-Cs-RnR" secondAttribute="top" id="TwY-yd-LSt"/>
+                                            <constraint firstItem="1oJ-Sa-MuU" firstAttribute="leading" secondItem="sI3-Cs-RnR" secondAttribute="leading" id="jgi-If-agn"/>
+                                            <constraint firstAttribute="bottom" secondItem="lPK-sF-mIm" secondAttribute="bottom" id="uli-ar-Yej"/>
+                                            <constraint firstItem="lPK-sF-mIm" firstAttribute="top" secondItem="1oJ-Sa-MuU" secondAttribute="bottom" id="wh6-vP-zaw"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="sI3-Cs-RnR" firstAttribute="height" secondItem="C8t-GU-Q5Z" secondAttribute="height" priority="250" id="C5d-ub-2yb"/>
+                                    <constraint firstItem="sI3-Cs-RnR" firstAttribute="width" secondItem="C8t-GU-Q5Z" secondAttribute="width" id="Y4R-hf-kiJ"/>
+                                    <constraint firstItem="sI3-Cs-RnR" firstAttribute="top" secondItem="C8t-GU-Q5Z" secondAttribute="top" id="YTy-Ko-0M7"/>
+                                    <constraint firstAttribute="trailing" secondItem="sI3-Cs-RnR" secondAttribute="trailing" id="dyl-l1-6ji"/>
+                                    <constraint firstItem="sI3-Cs-RnR" firstAttribute="leading" secondItem="C8t-GU-Q5Z" secondAttribute="leading" id="kQa-Wp-RqV"/>
+                                    <constraint firstAttribute="bottom" secondItem="sI3-Cs-RnR" secondAttribute="bottom" id="rdU-zW-rKC"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="k2s-xr-QZU" firstAttribute="bottom" secondItem="C8t-GU-Q5Z" secondAttribute="bottom" id="06G-yX-aw4"/>
+                            <constraint firstItem="k2s-xr-QZU" firstAttribute="trailing" secondItem="Yj5-Sk-HQL" secondAttribute="trailing" id="SdH-Ud-2km"/>
+                            <constraint firstItem="k2s-xr-QZU" firstAttribute="trailing" secondItem="C8t-GU-Q5Z" secondAttribute="trailing" id="UJN-Ka-BOa"/>
+                            <constraint firstItem="Yj5-Sk-HQL" firstAttribute="top" secondItem="k2s-xr-QZU" secondAttribute="top" id="b5i-bh-Nwg"/>
+                            <constraint firstItem="Yj5-Sk-HQL" firstAttribute="leading" secondItem="k2s-xr-QZU" secondAttribute="leading" id="msk-OI-tvj"/>
+                            <constraint firstItem="k2s-xr-QZU" firstAttribute="bottom" secondItem="Yj5-Sk-HQL" secondAttribute="bottom" id="vdL-bA-ocG"/>
+                            <constraint firstItem="6xE-uP-22C" firstAttribute="centerY" secondItem="lPK-sF-mIm" secondAttribute="top" multiplier="0.5" id="y9J-l4-FEy"/>
+                            <constraint firstItem="C8t-GU-Q5Z" firstAttribute="top" secondItem="k2s-xr-QZU" secondAttribute="top" id="yAc-Oz-iBE"/>
+                            <constraint firstItem="C8t-GU-Q5Z" firstAttribute="leading" secondItem="k2s-xr-QZU" secondAttribute="leading" id="zsP-np-tvI"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="k2s-xr-QZU"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Oa-wj-AL5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2521.739130434783" y="-672.554347826087"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="jojo" width="1280" height="720"/>
+    </resources>
+</document>
